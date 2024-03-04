@@ -28,7 +28,7 @@ pipeline {
                         dir("terraform")
                         {
                             sh("""
-                                rm -rf terra-cloud
+                                rm -rf "terra-cloud"
                                 git clone "https://github.com/Harshahd97/terra-cloud.git"
                              """)
                         }
